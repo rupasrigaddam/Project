@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './BusSchedule.css';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://project-back-rd27.onrender.com/api';
 
 function BusSchedule({ onNavigate }) {
   const [buses, setBuses] = useState([]);
