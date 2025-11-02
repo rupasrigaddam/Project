@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import './Login.css';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://project-back-rd27.onrender.com/api';
 
 function Login({ onSwitchToRegister, onLogin }) {
   const [formData, setFormData] = useState({
