@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/busTrackingDB', {
+mongoose.connect('mongodb+srv://231fa04817_db_user:xdfIc9btRkBVV2Gi@cluster0.jzv6gll.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
